@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akshay - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/akshayimg.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-0.jpg" alt="Akshay Jadhav" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Akshay Jadhav">Akshay Jadhav</h1>
+
+          <p class="title">Software Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="separator"></div>
+
+      <ul class="social-list">
+        <li class="social-item">
+          <a href="https://www.linkedin.com/in/akshay-jadhav-90ba81134/" class="social-link" style="color: rgb(87, 181, 240);">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li class="social-item">
+          <a href="https://www.youtube.com/channel/UCzDdwEpAU0nA7sLFoNp4nzA" class="social-link" style="color: rgb(255, 68, 68);">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+
+        <li class="social-item">
+          <a href="https://www.facebook.com/profile.php?id=100013215377464" class="social-link">
+            <ion-icon name="logo-facebook" style="color: lightskyblue;"></ion-icon>
+          </a>
+        </li>
+
+        <li class="social-item" >
+          <a href="https://www.instagram.com/jadhavakshay0701/" class="social-link" style="color: rgb(255, 113, 134);">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+    
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline" style="color: rgb(144, 227, 255)"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jadhavakshay0701@gmail.com" class="contact-link">jadhavakshay0701@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline" style="color: rgb(144, 227, 255)"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+918104191280" class="contact-link">+91 (810) 419-1280</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline" style="color: rgb(144, 227, 255)"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">Jan 07, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline" style="color: rgb(144, 227, 255)"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Syracuse, New York, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+    
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Project</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Greetings! I'm Akshay Jadhav, a dedicated and passionate student pursuing a Bachelor of Engineering in Information Technology from Ramrao Adik Institute of Technology, Mumbai University. With a strong interest in the development side of the IT world, I'm determined to excel in this field.
+          </p>
+
+          <p>
+            Throughout my academic journey, I have gained experience in various frameworks and database systems, enabling me to design and develop robust applications. I am well-versed in essential development tools and have a versatile skill set that allows me to work on diverse projects and adapt to new technologies.
+          </p>
+          <p>
+            As a lifelong learner, I am always eager to update my skills and explore new areas in hybrid app development. I am driven by a passion for innovation and excellence in app development, making me a valuable asset to any team or organization. Let's connect and explore how we can make an impact together!
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg 
+                " class="filter-green" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" class="filter-green" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" class="filter-green" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" class="filter-green" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a Intermediate level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="Programming Languages">
+          <h3 class="h3 lang-title">Programming Languages</h3>
+          <ul class="lang-list">
+            <li class="lang-item">
+              <h4 class="h4 lang-item-title" style="margin-top: 3px;">Java</h4>
+            </li>
+            <li class="lang-item">
+              <h4 class="h4 lang-item-title" style="margin-top: 3px;">JavaScript</h4>
+            </li>
+            <li class="lang-item">
+              <h4 class="h4 lang-item-title" style="margin-top: 3px;">Kotlin</h4>
+            </li>
+            <li class="lang-item">
+              <h4 class="h4 lang-item-title" style="margin-top: 3px;">Dart</h4>
+            </li>
+            <li class="lang-item">
+              <h4 class="h4 lang-item-title" style="margin-top: 3px;">Python</h4>
+            </li>
+            <li class="lang-item">
+              <h4 class="h4 lang-item-title" style="margin-top: 3px;">SQL</h4>
+            </li>
+          </ul>
+        </section>
+
+        <section class="Workshops" style="margin-top: 20px;">
+          <h3 class="h3 service-title">Workshops</h3>
+          <ul class="service-list" style="align-items: center; align-self: center;">
+            <li class="service-item" style="align-items: center; align-self: center;">
+              <iframe width="100%" height="200" src="https://www.youtube.com/embed/Dg86IrT99iU" title="Android Study Jam Session 2: Build app from scratch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </li>
+            <li class="service-item">
+              <iframe width="100%" height="200" src="https://www.youtube.com/embed/lFDnbaZTklE?list=PLxVLk0sr7UMz3FNlu98MI8_Bwq1XUXCTo" title="Spooky blinders info session | GDSC RAIT&#39;s first open source festival" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials
+        -->
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+      
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline" style="color: hsl(209, 71%, 53%)"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Syracuse University</h4>
+
+              <span>August 2023 — May 2025</span>
+
+              <p class="timeline-text">
+                Master of Science in Computer Science, Releavent courses: Design and Analysis of Algorithms, Operating System, Computer Architecture, Structured Programming and Formal Methods
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Mumbai</h4>
+
+              <span>August 2020 — May 2023</span>
+
+              <p class="timeline-text">
+                Activities and societies: Android Facilitator, GDSC Core member, Psych-Hack CoordinatorActivities and societies: Android Facilitator, GDSC Core member, Psych-Hack Coordinator <br>
+Course taken: Object Oriented Programming, Data Structures and Algorithms, Operating System, Software Engineering, Applied Linear Algebra, Database Management Systems, Artificial Intelligence, Automata Theory
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Vidyalankar Polytechnic</h4>
+
+              <span>September 2017 — May 2020</span>
+
+              <p class="timeline-text">
+                Diploma in Information Technology, Activities and societies: Technical Head of Techshala
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Work Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Google Summer of Code 2022, Mentor</h4>
+
+              <span>March 2022 — September 2022</span>
+
+              <p class="timeline-text">
+                • Built requested features and fixed bugs to enhance the Anki ecosystem, providing a better user experience.
+                <br/>
+                • Collaborated closely with the AnkiDroid team to ensure seamless synchronization and compatibility between AnkiDesktop and AnkiDroid.
+                <br/>
+                • Mentored a project focused on solving flashcard organization challenges on mobile devices through CSV importing, resulting in improved efficiency and user satisfaction.
+                <br/>
+                • Developed a user-friendly WYSIWYG editor for Anki, enabling users to create and format flashcards effortlessly.
+                <br/>
+                • Implemented code improvements to enhance maintainability and readability, reducing onboarding time for new developers and decreasing the bug count.
+                <br/>
+                • Provided support to a user base of over 2 million, ensuring a stable and efficient Anki experience.</p>
+              
+              <p class="timeline-text">
+                • Developed a user-friendly WYSIWYG editor for Anki, enabling users to create and format flashcards effortlessly.  
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intract technologies, Android Frontend intern</h4>
+
+              <span>June 2021 — August 2021</span>
+
+              <p class="timeline-text">
+                • Played a key role in enhancing an application's codebase by refactoring outdated code and meticulously resolving critical bugs.
+                <br>
+                • Successfully implemented over 12 highly sought-after features, addressing specific user requests and significantly improving the functionality and usability of the application.
+                <br>
+                • The addition of these new features resulted in an impressive surge in the application's rating on the play store, validating its enhanced performance and user satisfaction.
+                <br>
+                • Demonstrated technical expertise and problem-solving skills by automating the deletion of outdated resources for teachers using Firebase Function service.
+                <br>
+                • This automation not only streamlined the resource management process but also saved an average of 2 hours of manual work for teachers, allowing them to allocate more time to essential tasks.
+                <br>
+                • The resource deletion project served as an excellent opportunity for personal growth, fostering effective teamwork and collaboration while contributing to the overall success of the application.
+                <br>
+                • By consistently improving the user experience and optimizing application efficiency, I played a pivotal role in ensuring its sustained popularity and continued success in the market.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sahu Technologies, Web Developer intern</h4>
+
+              <span>June 2019 — July 2019</span>
+
+              <p class="timeline-text">
+                • Transformed 10+ UI wireframes into visually appealing and fully-functional webpages using HTML, CSS, JavaScript, and React within a tight deadline of 2 months.
+                <br>
+                • Ensured responsive design implementation, guaranteeing optimal user experience across various devices and screen sizes.
+                <br>
+                • Collaborated closely with clients to understand their requirements and preferences, translating them into intuitive and user-friendly features.
+                <br>
+                • Developed a course dashboard with customizable filters, enabling users to easily navigate and sort courses based on instructor, difficulty level, and price range.
+                <br>
+                • Resulted in a 50% reduction in search time for users and increased course enrollments by 20% due to improved accessibility and streamlined course selection process.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Research Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Vidyalankar Polytechnic, Information Technology Department <a href="https://www.irjet.net/archives/V8/i9/IRJET-V8I9131.pdf" target="_blank" style="color: rgb(173, 229, 229);"> click here</a></h4>
+              
+              <span>September 2020 — May 2021</span>
+
+              <p class="timeline-text">
+                • Developed the V-Share Application to facilitate fundraising, support, and donation efforts, specifically targeting the sharing of educational resources in rural areas of Mumbai.
+                <br>
+                • Created an intuitive interface that connects donors with NGOs and schools, making it easy for users to donate textbooks, notebooks, pencils, and other educational materials.
+                <br>
+                • Implemented a streamlined process where donors receive a provided bag to package their donations, ensuring the materials reach their intended destinations.
+                <br>
+                • Incorporated secure authentication measures to maintain the integrity of the donation process and provide donors with confirmation of the successful delivery of their contributions.
+                <br>
+                • V-Share Application serves as a reliable platform for sharing educational resources, bridging the gap between donors and recipients in underserved communities, and promoting access to education.
+               </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+
+        <section class="Technical skills">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="80" style="color: rgb(205, 243, 205);">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Android Development</h5>
+                <data value="95" style="color: rgb(205, 243, 205);">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Node.js</h5>
+                <data value="70" style="color: rgb(205, 243, 205);">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">GIT/CLI</h5>
+                <data value="95" style="color: rgb(205, 243, 205);">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%; color: lightgreen;"></div>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="project" data-page="project">
+
+        <header>
+          <h2 class="h2 article-title">Project</h2>
+        </header>
+
+        <section class="projects">
+
+         
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+            
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="Android">
+              <a href="https://github.com/Akshay0701/food_delivery_app">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Food Delivery App</h3>
+
+                <p class="project-category">Dart, Hybrid Application</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Android">
+              <a href="https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+author%3AAkshay0701+sort%3Acomments-desc+review%3Aapproved">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Ankidroid</h3>
+
+                <p class="project-category">Open Source contributions, Junit, Kotlin</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/Akshay0701/PingoAppSocialApp">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pingo, Social media application</h3>
+
+                <p class="project-category">Java, Firebase, Node.js</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/Akshay0701/VpShareApp">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">VShare</h3>
+
+                <p class="project-category">Live Donation Tracking</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/Akshay0701/Roller_Ball_Unity3d">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Roller Ball Game</h3>
+
+                <p class="project-category">Unity 3D</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/princeknockouts/DA178_ERROR404">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Student Cheating Detection model</h3>
+
+                <p class="project-category">TensorFlow</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/Akshay0701/dabbawalaapp">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mumbai cha DabbaWala</h3>
+
+                <p class="project-category">Home made food platform</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/Akshay0701/Autism_Project">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-8.png" alt="metaspark" loading="lazy">
+                </figure>
+                <h3 class="project-title">Autism</h3>
+                <p class="project-category">Learning, Games, Task scheduler, Clickboard</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/Akshay0701/RentalCarSystem">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-9.png" alt="metaspark" loading="lazy">
+                </figure>
+                <h3 class="project-title">Rental Car System</h3>
+                <p class="project-category">Kotlin, XML, Firebase</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="mapbox" data-mapbox>
+          <figure>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93321.47051017833!2d-76.22185286765325!3d43.035204219615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39bbf979a0d%3A0xd50ce2d7ad9545!2sSyracuse%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1686467864018!5m2!1sen!2sin" width="400" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

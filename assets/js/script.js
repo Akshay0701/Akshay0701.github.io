@@ -157,3 +157,20 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+// Poems dropdown functionality
+const poemToggles = document.querySelectorAll('.poem-toggle');
+poemToggles.forEach(function(toggle) {
+  toggle.addEventListener('click', function() {
+    const content = this.parentElement.querySelector('.poem-content');
+    const isOpen = this.classList.contains('active');
+    // Close all poems
+    document.querySelectorAll('.poem-toggle').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.poem-content').forEach(div => div.style.display = 'none');
+    // Open this one if it was not open
+    if (!isOpen) {
+      this.classList.add('active');
+      content.style.display = 'block';
+    }
+  });
+});
